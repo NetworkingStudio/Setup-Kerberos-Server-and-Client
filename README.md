@@ -1,7 +1,7 @@
 ## Setup-Kerberos-Server-and-Client
 Study guide to Kerberos server and Kerberos client
 
-###On server side
+### On server side
 1, setup Hostnames for your project using this command
 /etc/hosts
 2, setup NTP server 
