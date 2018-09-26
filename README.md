@@ -23,5 +23,6 @@ Study guide to Kerberos server and Kerberos client
     . A list of NTP servers should appear
     
   b, after NTP server is installed use this command: 
+  
         vim /etc/ntp.conf
     
