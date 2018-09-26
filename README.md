@@ -22,6 +22,11 @@ Study guide to Kerberos server and Kerberos client
     
     . A list of NTP servers should appear
     
+    ### NTP server Country location code
+    
+    ![ntp server for ireland](https://user-images.githubusercontent.com/22172433/46114902-a6390f00-c1ec-11e8-8ac1-6663f726e490.PNG)
+
+    
   b, after NTP server is installed use this command: 
   
         vim /etc/ntp.conf
