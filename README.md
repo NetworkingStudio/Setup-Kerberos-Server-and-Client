@@ -25,6 +25,7 @@ Study guide to Kerberos server and Kerberos client
     ### NTP server Country location code
     
     
+    
   b, after NTP server is installed use this command: 
   
         vim /etc/ntp.conf
