@@ -25,7 +25,8 @@ In the configuration file: "/etc/hosts". This configuration settings must only b
 
     vim /etc/hosts
 
-2, setup NTP server 
+2, setup NTP server
+
   a, install NTP server packet:
   
     yum install ntp
