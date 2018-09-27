@@ -22,7 +22,7 @@ Study guide to Kerberos server and Kerberos client
     
     . A list of NTP servers should appear
     
-    ### NTP server Country location code
+### NTP server Country location code
     
 ![ntp server for ireland](https://user-images.githubusercontent.com/22172433/46115511-32e4cc80-c1ef-11e8-8c7c-afd4e48d3d1d.PNG)
 
