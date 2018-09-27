@@ -43,8 +43,21 @@ Study guide to Kerberos server and Kerberos client
     . Where restrict statement controls is
             You should see what network is allowed and to query
     The synchronized time 
-        . Replace network IPs accordingly as this example
+        . Replace network IP Address and subnetmasks accordingly as this example: 
+        Note: make no changes to this below example 
         
-        restrict 19 2.168.1.0 netmask 255.255.255.0 nomodify notrap
+        "restrict 192.168.1.0 netmask 255.255.255.0 nomodify notrap"
         
-5, 
+5, For an additional information to NTP server troubleshooting, just in case there are problems while configuring NTP server edited file
+        . On the NTP daemon configuration file
+        . Add a log file statement 
+        . This will record all NTP server issues into a dedicated log file
+      Add this command:
+      
+        logfile /var/log/ntp.log
+  
+6, After edited NTP server file 
+    . Following all configuration explained above 
+    . Then save your work 
+    . Close ntp.conf file. 
+    ### This complete the NTP setup for Kerberos server side
