@@ -60,8 +60,9 @@ Study guide to Kerberos server and Kerberos client
   
 6, After edited NTP server file 
 
-    . Following all configuration explained above 
+    . Following all configuration steps explained above 
     . Then save your work 
     . Close ntp.conf file. 
-### This complete the NTP setup for Kerberos server side
+### This complete the NTP setup for Kerberos server side, 
+All the above steps can be configured on Client side also.
 
