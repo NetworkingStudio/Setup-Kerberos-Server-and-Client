@@ -29,4 +29,22 @@ Study guide to Kerberos server and Kerberos client
   b, after NTP server is installed use this command: 
   
         vim /etc/ntp.conf
+        
+3, Using the above command you open NTP daemon main configuration file for editing 
+    . Uncomment the default list,
+   The NTP public servers 
+    . From pool.ntp.org replace it with the list provided for your country 
+    . See the screenshot above example for Ireland
     
+4, You shloud allow client to have access from networks connection to synchronize time with server
+    in most cases you will find the below line already present
+    
+    . To accomplish this, add the following line if NOT present in NTP configuration file
+    . Where restrict statement controls is
+            You should see what network is allowed and to query
+    The synchronized time 
+        . Replace network IPs accordingly as this example
+        
+        restrict 19 2.168.1.0 netmask 255.255.255.0 nomodify notrap
+        
+5, 
