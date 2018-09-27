@@ -5,13 +5,13 @@ This installation setup requires three servers
     . One is acting as kerberos KDC server 
     . The other two machines are client-1 and client-2. 
     
-    •	Kerberos KDC Server: 
+    • Kerberos KDC Server: 
     kdc.networkingstudio.org
     
-    •	Kerberos Client1: 
+    • Kerberos Client1: 
     krb-client1.networkingstudio.org
     
-    •	Kerberos Client2: 
+    • Kerberos Client2: 
     krb-client1.networkingstudio.org
     
 ### Note: 
