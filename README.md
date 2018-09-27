@@ -1,6 +1,25 @@
 ## Setup-Kerberos-Server-and-Client
 Study guide to Kerberos server and Kerberos client
 
+This installation setup requires three servers 
+    . One is acting as kerberos KDC server 
+    . The other two machines are client-1 and client-2. 
+    
+    •	Kerberos KDC Server: 
+    kdc.networkingstudio.org
+    
+    •	Kerberos Client1: 
+    krb-client1.networkingstudio.org
+    
+    •	Kerberos Client2: 
+    krb-client1.networkingstudio.org
+    
+### Note: 
+The server and both client must be able to know their IP Addresses, and hostname of all other configured hosts, via ssh.
+All systems must be properly configured and setup for network communication and both systems have the hostnames and IP addresses
+In the configuration file: "/etc/hosts". This configuration settings must only be carried out on the server. 
+
+
 ### On server side
 1, setup Hostnames for your project using this command:
 
